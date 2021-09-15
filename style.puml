@@ -8,6 +8,14 @@
 !$FONTSIZE = 11
 !endif
 
+!ifdef DARKYELLOW
+skinparam backgroundColor 777
+!$ACCENT = "efd700"
+!$ACCENTDARK = "c9b500"
+skinparam stereotypeCBackgroundColor $ACCENT
+!define DARKSTYLE
+!endif
+
 !ifdef DARKBLUE
 skinparam backgroundColor 777
 !$ACCENT = "1a66c2"
